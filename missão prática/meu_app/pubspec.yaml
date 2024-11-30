@@ -1,0 +1,27 @@
+name: meu_app
+description: Um novo aplicativo Flutter
+
+# Versão do seu aplicativo
+version: 1.0.0+1
+
+# Dependências do aplicativo
+dependencies:
+  flutter:
+    sdk: flutter
+
+# Dependências de desenvolvimento
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Ambiente de SDK
+environment:
+  sdk: "^3.5.0"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Lake.png
+
+
